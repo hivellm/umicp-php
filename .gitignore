@@ -1,0 +1,39 @@
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# Build artifacts
+*.so
+*.dll
+*.dylib
+/build/
+/artifacts/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Tests
+/coverage/
+/.phpunit.cache/
+/.phpunit.result.cache
+/test-results/
+*.log
+
+# Configuration
+/config/umicp.php
+nuget.config
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# OS
+Thumbs.db
+Desktop.ini
